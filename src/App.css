@@ -1,0 +1,60 @@
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, pink,yellowgreen,cyan);
+  }
+  .App {
+    display: flex;
+    justify-content: center;
+  }
+  .container, .feed_form {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    color:blue;
+  }
+  label, input {
+    font-size: 1.4rem;
+    color:red;
+  }
+  input[type="text"] {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(197, 237, 241);
+    width:90%;
+  }
+  button {
+    padding: 10px 50px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    background-color: blueviolet;
+  }
+  button:hover {
+    border: 2px solid black;
+    background-color:yellow;
+  }
+  #formData {
+    width: 80vw;
+    height: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    background-color: purple;
+  }
+  .display_data {
+    width: 40%;
+    height: fit-content;
+    padding: 15px;
+    margin: 15px 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    color: black;
+    text-align: center;
+    background-color:yellowgreen;
+    font-size: 1.2rem;
+  }
